@@ -15,7 +15,7 @@
 * task 5:Say [Hello World]  待放图。。
 * task 6:开光大会心得总结 [done](https://github.com/wdcheng1/task/blob/master/README.md)
 * task7:markdown教程 [done](https://github.com/wdcheng1/task/blob/master/README1.md)  Mailing-List 教程[done](https://github.com/wdcheng1/task/blob/master/Mailinglist.md)
-* task8:在GitBook中，写GitHub教程[doing](http://wdcheng1.gitbooks.io/github/content/)
+* task8:在GitBook中，写GitHub教程[doing](http://wdcheng1.gitbooks.io/github/content/)待补充
 * task9:Github推送Gitbook[doing1](https://github.com/wdcheng1/GitBook)+[doing2]()
          
  
