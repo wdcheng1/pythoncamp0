@@ -7,7 +7,18 @@
 ## 第一章 课前准备
 ### 正篇
 ###  折腾篇
-## 第二章 本周作业 
+### 1.1 本周作业task
+* task 1:注册网易云课堂  done
+* task 2:Github初始化  done
+* task 3:GitBook初始化 done
+* task 4:Git发布私人图书 done Link：。。。
+* task 5:Say [Hello World]  待放图。。
+* task 6:开光大会心得总结 [done](https://github.com/wdcheng1/task/blob/master/README.md)
+* task7:markdown教程 [done](https://github.com/wdcheng1/task/blob/master/README1.md)  Mailing-List 教程[done](https://github.com/wdcheng1/task/blob/master/Mailinglist.md)
+* task8:在GitBook中，写GitHub教程[doing](http://wdcheng1.gitbooks.io/github/content/)
+* task9:Github推送Gitbook[doing1](https://github.com/wdcheng1/GitBook)+[doing2]()
+         
+ 
 ## 第三章 问题实际比预期要难
 
 
