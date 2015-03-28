@@ -1,26 +1,38 @@
 # Python学习之路
 
 ## 缘起
-
-工作无聊多余有趣，生活不尽如意，内心在呼喊：这样子过一生，值吗？一个偶然的夜晚，加入了开智青年群，从此有机会聆听到离时间源头更近的声音。又一个夜晚，阳老的五元学科之一编程开班，遂交与后背，勇而学python。
-
 ## 第一章 课前准备
-### 正篇
-###  折腾篇
-### 1.1 本周作业task
-* task 1:注册网易云课堂  done
-* task 2:Github初始化  done
-* task 3:GitBook初始化 done
-* task 4:Git发布私人图书 done Link：。。。
-* task 5:Say [Hello World]  待放图。。
-* task 6:开光大会心得总结 [done](https://github.com/wdcheng1/task/blob/master/README.md)
-* task7:markdown教程 [done](https://github.com/wdcheng1/task/blob/master/README1.md)  Mailing-List 教程[done](https://github.com/wdcheng1/task/blob/master/Mailinglist.md)
-* task8:在GitBook中，写GitHub教程[doing](http://wdcheng1.gitbooks.io/github/content/)待补充
-* task9:Github推送Gitbook[doing1](https://github.com/wdcheng1/GitBook)+[doing2]()
-         
- 
-## 第三章 问题实际比预期要难
+### 1.1 时间调试
+### 1.2 课前预习
+### 1.3 硬件准备
+###  小记
 
+## 第二章 week1
+### 1.1 环境配置
+### 1.2 开光大会心得总结
+### 1.3 Markdown 学习指南
+### 1.4 Mailing-list 学习指南
+### 1.5 GitHub 学习指南
+### 1.6 GitBook 学习指南
+### 1.7 周日导师答疑
+### 小记
+
+## 第二章 week2
+### 1.1 与时间赛跑--python云课程学习
+### 1.2 编程小游戏 教程
+### 1.3 逼出来的学习方式
+### 1.4 周日导师答疑
+### 小记
+
+## 第三章 week3
+###
+
+...
+...
+...
+
+
+## 尾声
 
  
 
