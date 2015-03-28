@@ -1,14 +1,25 @@
-# SUMMARY
-
+## SUMMARY
 * [缘起](/source/begin.md)
-* [part1](./source/part1/introduction)
-  * [part1.1](./source/part1/1.md)
-* [part2](./source/part2/introduction)      
-  * [part2.2](./source/part2/1.md)
-* [part3]()
-
-  
-
-* [结尾](./source/end.md)
+* [课前准备](/source/part1/introduction.md)
+  * [时间&能量调集](/source/part1/1.md)
+  * [硬件准备](/source/part1/2.md)
+  * [课前预习](/source/part1/3.md)
+  * [小记](/source/part1/4.md)
+* [第一周](/source/part2/introduction.md)      
+  * [环境配置](/source/part2/1.md)
+  * [开光大会心得总结](/source/part2/2.md)
+  * [Markdown 学习指南](/source/part2/3.md)
+  * [Mailing-list 学习指南](/source/part2/4.md)
+  * [GitHub 学习指南](/source/part2/5.md)
+  * [GitBook 学习指南](/source/part2/6.md)
+  * [周日导师答疑](/source/part2/7.md)
+  * [小记](/source/part2/8.md)
+* [第二周](/source/part3/introduction.md)      
+  * [与时间赛跑－coursers学习](/source/part3/1.md)
+  * [编程小游戏 教程](/source/part3/2.md)
+  * [逼出来的学习方式](/source/part3/3.md)
+  * [周日导师答疑](/source/part3/4.md)
+  * [周日导师答疑](/source/part3/5.md)
+* [结尾](/source/end.md)
  
 
