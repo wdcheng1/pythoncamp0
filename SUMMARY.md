@@ -19,7 +19,12 @@
   * [编程小游戏 教程](/source/part3/2.md)
   * [逼出来的学习方式](/source/part3/3.md)
   * [周日导师答疑](/source/part3/4.md)
-  * [周日导师答疑](/source/part3/5.md)
+  * [小记](/source/part3/5.md)
+* [第三周](/source/part3/introduction.md)      
+  * [可回放的点彩画板教程](/source/part3/1.md)
+  * [状态](/source/part3/2.md)
+  * [周日导师答疑](/source/part3/3.md)
+  * [小记](/source/part3/4.md)
 * [结尾](/source/end.md)
  
 
