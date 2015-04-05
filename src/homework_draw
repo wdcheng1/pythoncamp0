@@ -1,0 +1,136 @@
+
+import simplegui
+
+# initalize globals
+# 3 lists for storing different brush position, using index to sync.
+# merge three list into one list to playback in sequence.
+
+list1 = []
+list2 = []
+list3 = [] 
+list = [] 
+color = "red"
+n = 1  # n will be uesd to distinguish which brush should be choose when playback.
+t = -1
+interval = 200
+project = False
+
+# when click, list1/list2/list3 append respectively. list append merge all.
+def click(pos):
+    if n == 1:
+        list1.append(pos) 
+        list.append([n, pos])  
+    elif n == 2:
+        list2.append(pos)
+        list.append([n, pos]) 
+    else:
+        list3.append(pos) 
+        list.append([n, pos]) 
+        
+def select1():
+    global n
+    n = 1
+    print " red circle "
+    print " interval is ", interval
+    
+def select2():
+    global n
+    n = 2
+    print " green triangle "
+    print " interval is ", interval
+    
+def select3():
+    global n
+    n = 0
+    print " blue rectangle "
+    print " interval is ", interval
+    
+def change_color(input_color):
+    global color
+    color = input_color   
+    print "color is", color
+    
+# have a mistake: not define timer as global. 
+# take consideration: why does we setup timer here ?  
+def playback():
+    global project
+    global timer
+    project = True
+    timer = simplegui.create_timer(interval, tick)
+    timer.start() 
+    print " playback start "
+    
+def change_interval(input_interval):
+    global interval
+    interval = int(input_interval)
+    print "interval is ", interval 
+    
+def tick():
+    global t
+    global list1
+    global list2
+    global list3
+    global project
+    global list
+    
+    if t < len(list)-1:
+        t += 1
+        print t
+    else:
+        list1 = []
+        list2 = []
+        list3 = []
+        list = []
+        timer.stop() 
+        t = 0
+        project = False
+        print " playback finished "
+
+
+# Main draw function. Firstly, we draw something when the mouse click;
+# Secondly, when playback, we draw something in sequence by distingishing n value.
+def draw_handler(canvas):
+    if project == False:
+        for ball_pos in list1:
+            canvas.draw_circle(ball_pos, 15, 1, "Black", color) 
+        
+        for tri_pos in list2:
+            canvas.draw_polygon([tri_pos, (tri_pos[0]+10, tri_pos[1]),
+                                 (tri_pos[0], tri_pos[1]+10)], 20, color) 
+        
+        for rec_pos in list3:
+            canvas.draw_polygon([rec_pos, (rec_pos[0]+10, rec_pos[1]), 
+                                 (rec_pos[0]+20, rec_pos[1])], 20, color) 
+    else :
+        
+        if list[t][0] == 1:
+            ball_pos = list[t][1]
+            canvas.draw_circle(ball_pos, 15, 1, "Black", color) 
+            
+        elif list[t][0] == 2:
+            tri_pos = list[t][1]
+            canvas.draw_polygon([tri_pos, (tri_pos[0]+10, tri_pos[1]), 
+                                (tri_pos[0], tri_pos[1]+10)], 20, color) 
+            
+        else:
+            rec_pos = list[t][1]
+            canvas.draw_polygon([rec_pos, (rec_pos[0]+10, rec_pos[1]), 
+                                (rec_pos[0]+20, rec_pos[1])], 20, color) 
+
+# Create a frame and assign callbacks to event handlers
+frame = simplegui.create_frame("task", 300, 300)
+frame.set_canvas_background("White") 
+
+frame.add_button("Circle Brush", select1, 150) 
+frame.add_button("Triangle Brush", select2, 150) 
+frame.add_button("Rectangle Brush", select3, 150) 
+frame.add_button("playback", playback, 150) 
+frame.add_input("print interval", change_interval, 150)
+frame.add_input("print color", change_color, 150)
+
+frame.set_mouseclick_handler(click) 
+frame.set_draw_handler(draw_handler) 
+
+
+# Start the frame animation
+frame.start()
