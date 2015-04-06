@@ -1,8 +1,8 @@
-{
-  "plugins": [ 
-    "disqus"
-  ],
-  "pluginsConfig": {
-      "shortName": “chengweidong”
+｛
+     "plugins": [
+          "disqus"
+      ],
+      "pluginConfig": {
+          "shortName": "chengweidong"
+      }
   }
-}
