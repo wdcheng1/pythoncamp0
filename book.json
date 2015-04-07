@@ -2,7 +2,7 @@
      "plugins": [
           "disqus"
       ],
-      "pluginConfig": {
+      "pluginsConfig": {
           "shortName": "chengweidong.disqus.com"
       }
   }
